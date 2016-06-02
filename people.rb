@@ -20,10 +20,10 @@ class Instructor
   end
 end
 
-student = Student.new
-teacher = Instructor.new
-
-puts teacher.name("Mr. Keating")
-puts teacher.teach
-puts student.name("Todd")
-puts student.learn
+chris = Instructor.new
+puts chris.name("Chris")
+cristina = Student.new
+puts cristina.name("Cristina")
+puts chris.teach
+puts cristina.learn
+# puts student.teach   teach is a method in Instructor. Not defined in Student and cannot be accessed by Student
