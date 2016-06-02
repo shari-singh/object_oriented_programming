@@ -22,8 +22,8 @@ end
 
 chris = Instructor.new("Chris")
 cristina = Student.new("Cristina")
-puts chris.name
-puts cristina.name
+puts chris.greeting
+puts cristina.greeting
 puts chris.teach
 puts cristina.learn
 # puts student.teach   teach is a method in Instructor. Not defined in Student and cannot be accessed by
