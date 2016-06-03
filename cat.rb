@@ -17,7 +17,7 @@ attr_reader :name, :preferred_food, :meal_time
   end
 
   def meow
-    "My name is #{name} and I eat tuna at #{eats_at}"
+    "My name is #{name} and I eat #{preferred_food} at #{eats_at}"
   end
 end
 
